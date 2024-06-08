@@ -1,5 +1,3 @@
 export const Menu = (): JSX.Element => {
-  return (
-    <div>Menu</div>
-  );
+	return <div>Menu</div>;
 };
