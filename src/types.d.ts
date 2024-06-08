@@ -1,5 +1,5 @@
 export interface PizzaCardProps {
-  img: string,
-  name: string,
-  price: string,
-};
+	img: string;
+	name: string;
+	price: string;
+}
