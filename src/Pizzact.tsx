@@ -1,3 +1,10 @@
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./router/AppRouter";
+
 export const Pizzact = (): JSX.Element => {
-	return <div>Pizzact</div>;
+	return (
+		<BrowserRouter>
+			<AppRouter />
+		</BrowserRouter>
+	);
 };
