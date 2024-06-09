@@ -1,3 +1,7 @@
 export const Menu = (): JSX.Element => {
-	return <div>Menu</div>;
+	return (
+		<main className="mx-auto container bg-red-400">
+			<p>Menu</p>
+		</main>
+	);
 };
